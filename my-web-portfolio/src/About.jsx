@@ -9,19 +9,19 @@ function About(){
             url: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800',
             title: 'TU Dublin',
             description: 'Class of 2028',
-            backText: 'Studying Computer Science with a focus on Data Analytics. Expected graduation in 2028. Active in coding clubs and hackathons.'
+            backText: 'Currently studying towards a Bachelors of Science in Data Science and Artificial Intelligence.'
         },
         {
             url: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800',
-            title: 'GitHub Projects',
-            description: 'Data Science',
-            backText: 'Working on various data science projects including machine learning models and data visualization. Check out my repositories!'
+            title: 'Myself',
+            description: 'And who I am',
+            backText: 'Is it crazy to say I want to change the world?'
         },
         {
             url: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800',
-            title: 'Project 3',
-            description: 'Machine Learning',
-            backText: 'Developed predictive models using Python and TensorFlow. Focused on neural networks and deep learning applications.'
+            title: 'My Background',
+            description: '',
+            backText: ''
         }
     ];
 
@@ -66,7 +66,7 @@ function About(){
                                 {/* Overlay */}
                                 <div className="carousel-overlay">
                                     <h3>{images[currentIndex].title}</h3>
-                                    <p>Class Of 2028</p>
+                                    <p>{images[currentIndex].description}</p>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ function About(){
                         <div className="flip-card-back" onClick={handleFlip}>
                             <div className="flip-card-content">
                                 <h3>{images[currentIndex].title}</h3>
-                                <p>HI im tyler</p>
+                                <p>{images[currentIndex].backText}</p>
                                 <p className="click-hint">Click to go back</p>
                             </div>
                         </div>

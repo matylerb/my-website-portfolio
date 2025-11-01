@@ -7,7 +7,7 @@
   --bg: #151515;
   --muted: #a5a5a5;
   --accent: #ff0000;
-  --card-radius: 8px;
+  --card-radius: 5px;
   --max-width: 900px;
 }
 
@@ -45,20 +45,8 @@ body{
   margin:0 auto;
   z-index:2;
 }
-
-/* Heading */
-.about h2{
-  margin:0 0 1rem 0;
-  font-family: 'Bungee Tint', sans-serif;
-  color:#868686;
-  font-size:3.5rem;
-  line-height:1;
-  font-weight:700;
-}
-
 /* Lead paragraph */
 .about > .about-content > p{
-  margin:0 0 2rem 0;
   color:var(--muted);
   font-size:1.15rem;
 }
