@@ -3,7 +3,7 @@ function Hero() {
     return(
         <section className="hero">
             <div className="hero-content">
-                <h1>Hi there! I'm Tyler</h1>
+                <h1>ma<span className="highlight">tyler</span>b</h1>
                 
                 <nav className="hero-nav">
                     <ul>
@@ -16,7 +16,7 @@ function Hero() {
                 </nav>
                 
                 <div className="hero-buttons">
-                    <a href="#projects" className="cta">
+                    <a href="https://github.com/matylerb" className="cta">
                         <span className="span">View My Work</span>
                         <span className="second">
                             <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg">
